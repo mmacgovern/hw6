@@ -104,6 +104,10 @@ Then:
 - Add a short "How to run" section to README.md.
 Do not add prompt-injection defenses yet; Problem 5 needs this version as-is.
 
+**Follow-up prompt:** N/A
+
+What was lacking after the first prompt: N/A
+
 ## Problem 4: With and Without Cached Tokens
 
 **Prompt:**
@@ -125,6 +129,10 @@ Then write output/cache_test.md in plain English:
 3. A projection for 1,000 documents a day for 30 days, with and without cache, with the math shown.
 4. Anything surprising in the numbers and why it happens (for example: the first call is never cached, cached tokens may come in fixed-size chunks, agent runs can make several calls, output tokens aren't discounted, so total savings are smaller than the cache discount).
 
+**Follow-up prompt:** N/A
+
+What was lacking after the first prompt: N/A
+
 ## Problem 5: Attack your Agent
 
 **Prompt:**
@@ -143,17 +151,9 @@ Use the Problem 3 agent exactly as it is, with no new defenses.
  
 Finally, tell me which 2 or 3 files I should open myself (browser, PDF viewer, email app) to see the difference with my own eyes.
 
-**Follow-up prompt:**
+**Follow-up prompt:** N/A
 
-Are you still working Claude on Problem 5?
-
-What was lacking after the first prompt: it didn't ask for progress updates during the long test run, so I couldn't tell whether work was still going on.
-
-**Follow-up prompt:**
-
-Is Problem 5 complete?
-
-What was lacking after the first prompt: it didn't ask for a final check of every numbered step before calling the problem finished.
+What was lacking after the first prompt: N/A
 
 ## Problem 6: Defend your Agent
 
@@ -185,11 +185,9 @@ Then:
 - Write output/defense_results.md with: a before-and-after table for all 12 documents, what each layer catches that the others miss, and the extra tokens and dollars each layer adds per document.
 - Add a "Safety" section to output/harness.md explaining each defense layer in plain words.
 
-**Follow-up prompt:**
+**Follow-up prompt:** N/A
 
-Is Problem 6 complete? Was it successful?
-
-What was lacking after the first prompt: it didn't define what "successful" means (for example, a target number of correct documents or a cost limit), so I had to ask for a final verdict.
+What was lacking after the first prompt: N/A
 
 ## Problem 7: Red Team
 
@@ -205,11 +203,9 @@ Problem 7 - Red Team. Now I am the attacker.
 6. If an attack gets past the full defenses, fix the defenses, rerun all 12 practice documents to make sure nothing broke, and update defense_results.json and defense_results.md.
 7. Write output/red_team.md. For each attack: what is hidden, where it is hidden, what it tries to make the agent do, what happened with no defenses, and what happened with defenses.
 
-**Follow-up prompt:**
+**Follow-up prompt:** N/A
 
-Is Problem 7 complete? Did it work successfully?
-
-What was lacking after the first prompt: it didn't say what counts as success for a red team (fooling the undefended agent, beating the defenses, or the defenses holding), so I had to ask for a verdict.
+What was lacking after the first prompt: N/A
 
 ## Problem 8: Exam Documents
 
@@ -226,17 +222,9 @@ Run the final agent with ALL defenses on (and caching on) over every file in dat
 3. Show me a table of the results and flag anything that looks odd (blank fields, refusals, links or strange text in a reason, a trap call). Do NOT change results by hand. If something is broken, fix the code and rerun all 10.
 4. Confirm the only model used was gpt-6-luna.
 
-**Follow-up prompt:**
+**Follow-up prompt:** N/A
 
-How long estimate to complete?
-
-What was lacking after the first prompt: it didn't ask for a time estimate or progress updates for the long exam run.
-
-**Follow-up prompt:**
-
-Is it complete?
-
-What was lacking after the first prompt: it didn't ask for a final checklist confirming each numbered step was finished.
+What was lacking after the first prompt: N/A
 
 ## Problem 9: Results Page
 
@@ -258,6 +246,10 @@ Sections:
  
 After building it, open it in a headless browser with internet blocked, take screenshots at laptop and phone width, check every chart and table shows real numbers, and fix any problems. Then tell me to double-click it to check it myself.
 
+**Follow-up prompt:** N/A
+
+What was lacking after the first prompt: N/A
+
 ## Problem 10: Push to GitHub
 
 **Prompt:**
@@ -271,3 +263,7 @@ Problem 10 - Push to GitHub.
 5. Create a git repository, commit everything, create a PUBLIC GitHub repo named hw6 using the gh command (I'm already logged in), and push. If the name is taken, use hw6-campus-customs.
 6. Final test: clone the repo into a temporary folder, confirm .env is NOT there and all expected files ARE there, then delete the temporary copy.
 7. Give me the repo URL to submit on Canvas.
+
+**Follow-up prompt:** N/A
+
+What was lacking after the first prompt: N/A

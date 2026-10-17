@@ -1,17 +1,21 @@
+# Exact versions this project was built and tested with (Python 3.14).
 # AI agent framework (structured outputs + tools)
-pydantic-ai
-pydantic
-# OpenAI-compatible client, used to talk to Portkey
-openai
+pydantic-ai==2.57.0
+pydantic==2.14.1
+# OpenAI-compatible client and HTTP library, used to talk to Portkey
+openai==3.33.0
+httpx==0.28.1
 # Load PORTKEY_API_KEY from .env at run time
-python-dotenv
+python-dotenv==1.2.4
 # Read HTML vendor documents
-beautifulsoup4
-lxml
-# Read PDF vendor documents
-pypdf
-pdfplumber
+beautifulsoup4==4.15.0
+lxml==6.1.3
+# Read PDF vendor documents and render them to images
+pypdf==6.21.1
+pdfplumber==0.11.10
+pypdfium2==5.14.0
+pillow==13.0.0
 # Count tokens (handbook size, caching math)
-tiktoken
+tiktoken==0.14.0
 # Testing
-pytest
+pytest==9.1.1

@@ -20,7 +20,7 @@ A "vendor desk agent" for the shop Campus Customs. It reads a vendor document (q
 - Never delete them.
 
 ## File names (exact, lowercase)
-`agent.py`, `tools.py`, `models.py`, `prompts/prompt.md`, `output/` files, `README.md`, `AI_prompts.md`, `requirements.txt`, `.gitignore`, `.env.example`.
+`agent.py`, `tools.py`, `models.py`, `prompts/prompt.md`, `output/` files, `README.md`, `AI_Prompts.md`, `requirements.txt`, `.gitignore`, `.env.example`.
 
 ## Course data
 - Course data lives in `data/` (`shop_handbook.md`, `prices.json`, `practice_key.json`, `practice_docs/`, `exam_docs/`). Do not edit these files.
@@ -28,9 +28,11 @@ A "vendor desk agent" for the shop Campus Customs. It reads a vendor document (q
 
 ## PROMPT LOG RULE
 Every time the user sends a real prompt (skip one-word replies like "yes" or "continue"):
-1. First, append it word for word to `AI_prompts.md` under the section for the problem we are on, labeled **Prompt** or **Follow-up prompt**.
+1. First, append it word for word to `AI_Prompts.md` under the section for the problem we are on, labeled **Prompt** or **Follow-up prompt**.
 2. For each follow-up, also add one sentence starting "What was lacking after the first prompt:".
-3. Never put API keys in the log.
+3. Don't log status questions (e.g. "Is it complete?", "How long will it take?").
+4. If a problem needed no follow-up, its section says `**Follow-up prompt:** N/A` and `What was lacking after the first prompt: N/A`.
+5. Never put API keys in the log.
 
 ## How to explain things
 - The user is a manager learning vibe coding, not a programmer. Explain results in plain, non-technical language.

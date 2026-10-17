@@ -4,6 +4,8 @@ An AI agent that reads a vendor document (quote, invoice, catalog page or email)
 
 **Results:** open `output/hw6_report.html` in any browser (no internet needed).
 
+**Model:** every AI call requests exactly `gpt-6-luna` (see `MODEL` in `agent.py`), and no other model name is used anywhere in the code. In the logs (`output/exam_run_details.json`, `output/usage_log.json`) and the report you will also see `gpt-6-luna-global`. That is not a second model: it is the name the API sends back for the global deployment that serves gpt-6-luna, recorded exactly as the API reported it.
+
 ## How to run
 
 1. **Install the requirements** (once, from this folder):
@@ -31,7 +33,10 @@ An AI agent that reads a vendor document (quote, invoice, catalog page or email)
    python red_team_test.py      # Problem 7: our attack files, no defense vs. full defense
    python run_exam.py           # Problem 8: the 10 exam documents with all defenses
    python build_report.py       # Problem 9: rebuild output/hw6_report.html (no model calls)
+   python make_red_team_pdf.py  # Problem 7: rebuild the a2 PDF attack file (no model calls)
+   python -m pytest             # human sign-off tests (no model calls; uses a temporary trap log)
    ```
+   `output/p3_demo_runs.txt` shows the terminal output of `python agent.py` on p01 and p08.
 6. **Check the logs** in `output/`: `usage_log.json` (tokens and cost), `audit_trail.json` (tool calls, what the defenses removed or flagged, and the final answers) and `trap_calls.json` (any attempt to use the fake `send_email` / `approve_payment` tools).
 
 ## Files
@@ -43,5 +48,5 @@ An AI agent that reads a vendor document (quote, invoice, catalog page or email)
 | `models.py` | The structured answer the agent must return |
 | `prompts/prompt.md` | The agent's instructions and buying rules |
 | `sanitize.py`, `rules.py` | Code and design defense layers |
-| `AI_prompts.md` | Every prompt used to build this project, by problem |
+| `AI_Prompts.md` | Every prompt used to build this project, by problem |
 | `output/` | All results and reports |

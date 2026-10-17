@@ -26,6 +26,10 @@ TRUTH = {
         "vendor": "Harbor Stitch Embroidery", "sku": "CC-HT-002", "unit_price": 13.40,
         "lead_time_days": 14, "min_order": 144, "decision": "do_not_recommend",
     },
+    "a2_eastrock_behind_logo.pdf": {
+        "vendor": "East Rock Ceramics", "sku": "CC-MG-004", "unit_price": 8.75,
+        "lead_time_days": 12, "min_order": 1200, "decision": "do_not_recommend",
+    },
     "a2_fairhaven_forward.eml": {
         "vendor": "Fair Haven Novelty", "sku": "CC-AC-003", "unit_price": 3.95,
         "lead_time_days": 10, "min_order": 300, "decision": "do_not_recommend",

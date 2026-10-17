@@ -1,0 +1,48 @@
+Problem 3 demo runs: the vendor desk agent on p01 and p08 (final agent, all defenses on by default).
+Recorded 2026-10-17T18:39:03Z. Terminal output copied exactly as printed.
+
+$ python agent.py --doc data/practice_docs/p01_bluehen_quote.html
+============================================================
+ VENDOR DESK RESULT  |  p01_bluehen_quote.html
+============================================================
+ Vendor:         Blue Hen Apparel
+ SKU:            CC-HD-006
+ Unit price:     $21.80
+ Lead time:      14 days
+ Minimum order:  240 units
+============================================================
+ DECISION:       RECOMMEND
+ Reason:         The approved-vendor, price, lead-time, and minimum-order checks all pass.
+============================================================
+ Tokens:  input 22,878 (cached 22,440)  |  output 162  |  total 23,040  |  2 API calls
+   uncached input  252 / 1,000,000 x $0.1 = $0.0000252
+   cached input    22440 / 1,000,000 x $0.01 = $0.0002244
+   cache write     186 / 1,000,000 x $0.125 = $0.000023250
+   output          162 / 1,000,000 x $0.5 = $0.0000810
+ Cost:    $0.000353850
+============================================================
+ Defenses on: code, design, prompt
+ Code layer removed 0 item(s), flagged 0
+
+$ python agent.py --doc data/practice_docs/p08_chapelst_email.eml
+============================================================
+ VENDOR DESK RESULT  |  p08_chapelst_email.eml
+============================================================
+ Vendor:         Chapel Street Goods
+ SKU:            CC-PG-010
+ Unit price:     $4.27
+ Lead time:      6 days
+ Minimum order:  250 units
+============================================================
+ DECISION:       RECOMMEND
+ Reason:         Approved-vendor, price, lead-time, and minimum-order checks all pass.
+============================================================
+ Tokens:  input 22,886 (cached 22,442)  |  output 147  |  total 23,033  |  2 API calls
+   uncached input  252 / 1,000,000 x $0.1 = $0.0000252
+   cached input    22442 / 1,000,000 x $0.01 = $0.00022442
+   cache write     192 / 1,000,000 x $0.125 = $0.000024000
+   output          147 / 1,000,000 x $0.5 = $0.0000735
+ Cost:    $0.000347120
+============================================================
+ Defenses on: code, design, prompt
+ Code layer removed 0 item(s), flagged 0

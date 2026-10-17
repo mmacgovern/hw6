@@ -8270,5 +8270,291 @@
         "portkey_cache_status": "REFRESH"
       }
     ]
+  },
+  {
+    "document": "data/my_attacks/a2_eastrock_behind_logo.pdf",
+    "time": "2026-10-17T18:27:45+00:00",
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "defense_layers": [
+      "none"
+    ],
+    "input_tokens": 22374,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 11155,
+    "output_tokens": 580,
+    "total_tokens": 22954,
+    "details": {
+      "reasoning_tokens": 456
+    },
+    "requests": 2,
+    "uncached_input_tokens": 252,
+    "cost_math": {
+      "uncached_input": "252 / 1,000,000 x $0.1 = $0.0000252",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "11155 / 1,000,000 x $0.125 = $0.001394375",
+      "output": "580 / 1,000,000 x $0.5 = $0.000290"
+    },
+    "cost_usd": "0.001819245",
+    "calls": [
+      {
+        "call": 1,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11093,
+        "cached_tokens": 0,
+        "cache_write_tokens": 10967,
+        "output_tokens": 30,
+        "total_tokens": 11123,
+        "details": {
+          "reasoning_tokens": 0
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+          "cache_write": "10967 / 1,000,000 x $0.125 = $0.001370875",
+          "output": "30 / 1,000,000 x $0.5 = $0.000015"
+        },
+        "cost_usd": "0.001398475",
+        "portkey_cache_status": "REFRESH"
+      },
+      {
+        "call": 2,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11281,
+        "cached_tokens": 10967,
+        "cache_write_tokens": 188,
+        "output_tokens": 550,
+        "total_tokens": 11831,
+        "details": {
+          "reasoning_tokens": 456
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+          "cache_write": "188 / 1,000,000 x $0.125 = $0.000023500",
+          "output": "550 / 1,000,000 x $0.5 = $0.000275"
+        },
+        "cost_usd": "0.000420770",
+        "portkey_cache_status": "REFRESH"
+      }
+    ]
+  },
+  {
+    "document": "data/my_attacks/a2_eastrock_behind_logo.pdf",
+    "time": "2026-10-17T18:37:53+00:00",
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "defense_layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "input_tokens": 22925,
+    "cached_tokens": 11439,
+    "cache_write_tokens": 11234,
+    "output_tokens": 236,
+    "total_tokens": 23161,
+    "details": {
+      "reasoning_tokens": 82
+    },
+    "requests": 2,
+    "uncached_input_tokens": 252,
+    "cost_math": {
+      "uncached_input": "252 / 1,000,000 x $0.1 = $0.0000252",
+      "cached_input": "11439 / 1,000,000 x $0.01 = $0.00011439",
+      "cache_write": "11234 / 1,000,000 x $0.125 = $0.001404250",
+      "output": "236 / 1,000,000 x $0.5 = $0.0001180"
+    },
+    "cost_usd": "0.001661840",
+    "calls": [
+      {
+        "call": 1,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11360,
+        "cached_tokens": 0,
+        "cache_write_tokens": 11234,
+        "output_tokens": 30,
+        "total_tokens": 11390,
+        "details": {
+          "reasoning_tokens": 0
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+          "cache_write": "11234 / 1,000,000 x $0.125 = $0.001404250",
+          "output": "30 / 1,000,000 x $0.5 = $0.000015"
+        },
+        "cost_usd": "0.001431850",
+        "portkey_cache_status": "REFRESH"
+      },
+      {
+        "call": 2,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11565,
+        "cached_tokens": 11439,
+        "cache_write_tokens": 0,
+        "output_tokens": 206,
+        "total_tokens": 11771,
+        "details": {
+          "reasoning_tokens": 82
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "11439 / 1,000,000 x $0.01 = $0.00011439",
+          "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+          "output": "206 / 1,000,000 x $0.5 = $0.0001030"
+        },
+        "cost_usd": "0.00022999",
+        "portkey_cache_status": "REFRESH"
+      }
+    ]
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-10-17T18:39:17+00:00",
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "defense_layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "input_tokens": 22878,
+    "cached_tokens": 22440,
+    "cache_write_tokens": 186,
+    "output_tokens": 162,
+    "total_tokens": 23040,
+    "details": {
+      "reasoning_tokens": 59
+    },
+    "requests": 2,
+    "uncached_input_tokens": 252,
+    "cost_math": {
+      "uncached_input": "252 / 1,000,000 x $0.1 = $0.0000252",
+      "cached_input": "22440 / 1,000,000 x $0.01 = $0.0002244",
+      "cache_write": "186 / 1,000,000 x $0.125 = $0.000023250",
+      "output": "162 / 1,000,000 x $0.5 = $0.0000810"
+    },
+    "cost_usd": "0.000353850",
+    "calls": [
+      {
+        "call": 1,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11357,
+        "cached_tokens": 11209,
+        "cache_write_tokens": 22,
+        "output_tokens": 27,
+        "total_tokens": 11384,
+        "details": {
+          "reasoning_tokens": 0
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "11209 / 1,000,000 x $0.01 = $0.00011209",
+          "cache_write": "22 / 1,000,000 x $0.125 = $0.000002750",
+          "output": "27 / 1,000,000 x $0.5 = $0.0000135"
+        },
+        "cost_usd": "0.000140940",
+        "portkey_cache_status": "REFRESH"
+      },
+      {
+        "call": 2,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11521,
+        "cached_tokens": 11231,
+        "cache_write_tokens": 164,
+        "output_tokens": 135,
+        "total_tokens": 11656,
+        "details": {
+          "reasoning_tokens": 59
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "11231 / 1,000,000 x $0.01 = $0.00011231",
+          "cache_write": "164 / 1,000,000 x $0.125 = $0.000020500",
+          "output": "135 / 1,000,000 x $0.5 = $0.0000675"
+        },
+        "cost_usd": "0.000212910",
+        "portkey_cache_status": "REFRESH"
+      }
+    ]
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-10-17T18:41:09+00:00",
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "defense_layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "input_tokens": 22886,
+    "cached_tokens": 22442,
+    "cache_write_tokens": 192,
+    "output_tokens": 147,
+    "total_tokens": 23033,
+    "details": {
+      "reasoning_tokens": 41
+    },
+    "requests": 2,
+    "uncached_input_tokens": 252,
+    "cost_math": {
+      "uncached_input": "252 / 1,000,000 x $0.1 = $0.0000252",
+      "cached_input": "22442 / 1,000,000 x $0.01 = $0.00022442",
+      "cache_write": "192 / 1,000,000 x $0.125 = $0.000024000",
+      "output": "147 / 1,000,000 x $0.5 = $0.0000735"
+    },
+    "cost_usd": "0.000347120",
+    "calls": [
+      {
+        "call": 1,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11359,
+        "cached_tokens": 11209,
+        "cache_write_tokens": 24,
+        "output_tokens": 29,
+        "total_tokens": 11388,
+        "details": {
+          "reasoning_tokens": 0
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "11209 / 1,000,000 x $0.01 = $0.00011209",
+          "cache_write": "24 / 1,000,000 x $0.125 = $0.000003000",
+          "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+        },
+        "cost_usd": "0.000142190",
+        "portkey_cache_status": "REFRESH"
+      },
+      {
+        "call": 2,
+        "model_reported_by_api": "gpt-6-luna-global",
+        "input_tokens": 11527,
+        "cached_tokens": 11233,
+        "cache_write_tokens": 168,
+        "output_tokens": 118,
+        "total_tokens": 11645,
+        "details": {
+          "reasoning_tokens": 41
+        },
+        "uncached_input_tokens": 126,
+        "cost_math": {
+          "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+          "cached_input": "11233 / 1,000,000 x $0.01 = $0.00011233",
+          "cache_write": "168 / 1,000,000 x $0.125 = $0.000021000",
+          "output": "118 / 1,000,000 x $0.5 = $0.0000590"
+        },
+        "cost_usd": "0.000204930",
+        "portkey_cache_status": "REFRESH"
+      }
+    ]
   }
 ]
