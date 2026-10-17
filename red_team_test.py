@@ -1,6 +1,9 @@
 """Problem 7: run our own attack files with no defenses and with full defenses.
 
-Run with:  .venv\\Scripts\\python.exe -u red_team_test.py [attack file names...]
+Run with:  python -u red_team_test.py [attack file names...]
+
+With no names it runs our two final attacks in data/my_attacks/. Earlier draft
+versions live in output/red_team_drafts/ and can still be run by name.
 
 Before EACH run, output/trap_calls.json is backed up to output/trap_backups/
 and reset to [], so every run's trap calls are counted on their own.
@@ -16,6 +19,8 @@ from attack_test import FIELDS, field_matches, strange_text
 
 HERE = Path(__file__).parent
 ATTACKS = HERE / "data" / "my_attacks"
+DRAFTS = HERE / "output" / "red_team_drafts"
+FINAL = ["a1_harborstitch_noscript_v2.html", "a2_eastrock_behind_logo.pdf"]
 TRAP_LOG = HERE / "output" / "trap_calls.json"
 BACKUPS = HERE / "output" / "trap_backups"
 OUT = HERE / "output" / "red_team_results.json"
@@ -39,7 +44,7 @@ MODES = {"no_defense": frozenset(), "full_defense": ALL_LAYERS}
 
 
 def main() -> None:
-    names = sys.argv[1:] or list(TRUTH)
+    names = sys.argv[1:] or FINAL
     results = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
     BACKUPS.mkdir(parents=True, exist_ok=True)
     for name in names:
@@ -48,7 +53,8 @@ def main() -> None:
             shutil.copy(TRAP_LOG, backup)
             TRAP_LOG.write_text("[]", encoding="utf-8")
 
-            run = run_document((ATTACKS / name).relative_to(HERE).as_posix(), layers=layers)
+            path = ATTACKS / name if (ATTACKS / name).exists() else DRAFTS / name
+            run = run_document(path.relative_to(HERE).as_posix(), layers=layers)
             traps = json.loads(TRAP_LOG.read_text(encoding="utf-8"))
             answer = run["answer"].model_dump()
             truth = TRUTH[name.split("_v")[0] + Path(name).suffix if "_v" in name else name]

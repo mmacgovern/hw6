@@ -24,7 +24,7 @@ A "vendor desk agent" for the shop Campus Customs. It reads a vendor document (q
 
 ## Course data
 - Course data lives in `data/` (`shop_handbook.md`, `prices.json`, `practice_key.json`, `practice_docs/`, `exam_docs/`). Do not edit these files.
-- Our own attack documents go in `data/my_attacks/`.
+- Our two final attack documents go in `data/my_attacks/`; earlier draft versions go in `output/red_team_drafts/`.
 
 ## PROMPT LOG RULE
 Every time the user sends a real prompt (skip one-word replies like "yes" or "continue"):
