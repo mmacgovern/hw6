@@ -48,5 +48,5 @@ An AI agent that reads a vendor document (quote, invoice, catalog page or email)
 | `models.py` | The structured answer the agent must return |
 | `prompts/prompt.md` | The agent's instructions and buying rules |
 | `sanitize.py`, `rules.py` | Code and design defense layers |
-| `AI_Prompts.md` | Every prompt used to build this project, by problem |
+| `AI_prompts.md` | Every prompt used to build this project, by problem |
 | `output/` | All results and reports |
