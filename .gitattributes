@@ -1,0 +1,5 @@
+# Keep course documents byte-for-byte identical on every computer
+*.pdf binary
+*.png binary
+*.eml -text
+*.html -text
