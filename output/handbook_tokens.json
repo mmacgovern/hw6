@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6-luna",
+  "encoding": "o200k_base",
+  "tiktoken_tokens": 10058,
+  "api_with_handbook": 10071,
+  "api_baseline": 13,
+  "api_handbook_tokens": 10058,
+  "prices_per_1m": {
+    "input": "0.1",
+    "cached_input": "0.01",
+    "cache_write": "0.125"
+  },
+  "costs_usd": {
+    "1 call, no cache": "0.0010058",
+    "1,000 calls, no cache": "1.0058000",
+    "1 call, with cache (cache write)": "0.001257250",
+    "1 later call, cached": "0.00010058",
+    "1,000 calls, with cache": "0.101736670"
+  }
+}

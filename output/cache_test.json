@@ -1,0 +1,1154 @@
+[
+  {
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call": 1,
+    "input_tokens": 11092,
+    "cached_tokens": 10966,
+    "cache_write_tokens": 0,
+    "output_tokens": 27,
+    "total_tokens": 11119,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10966 / 1,000,000 x $0.01 = $0.00010966",
+      "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+      "output": "27 / 1,000,000 x $0.5 = $0.0000135"
+    },
+    "cost_usd": "0.00013576",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call": 2,
+    "input_tokens": 11417,
+    "cached_tokens": 11291,
+    "cache_write_tokens": 0,
+    "output_tokens": 115,
+    "total_tokens": 11532,
+    "details": {
+      "reasoning_tokens": 44
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "11291 / 1,000,000 x $0.01 = $0.00011291",
+      "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+      "output": "115 / 1,000,000 x $0.5 = $0.0000575"
+    },
+    "cost_usd": "0.00018301",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call": 1,
+    "input_tokens": 11093,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 23,
+    "output_tokens": 28,
+    "total_tokens": 11121,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "23 / 1,000,000 x $0.125 = $0.000002875",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.000138915",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call": 2,
+    "input_tokens": 11419,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 326,
+    "output_tokens": 153,
+    "total_tokens": 11572,
+    "details": {
+      "reasoning_tokens": 81
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "326 / 1,000,000 x $0.125 = $0.000040750",
+      "output": "153 / 1,000,000 x $0.5 = $0.0000765"
+    },
+    "cost_usd": "0.000239520",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call": 1,
+    "input_tokens": 11093,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 23,
+    "output_tokens": 28,
+    "total_tokens": 11121,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "23 / 1,000,000 x $0.125 = $0.000002875",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.000138915",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call": 2,
+    "input_tokens": 11417,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 324,
+    "output_tokens": 249,
+    "total_tokens": 11666,
+    "details": {
+      "reasoning_tokens": 163
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "324 / 1,000,000 x $0.125 = $0.000040500",
+      "output": "249 / 1,000,000 x $0.5 = $0.0001245"
+    },
+    "cost_usd": "0.000287270",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call": 1,
+    "input_tokens": 11095,
+    "cached_tokens": 10969,
+    "cache_write_tokens": 0,
+    "output_tokens": 30,
+    "total_tokens": 11125,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10969 / 1,000,000 x $0.01 = $0.00010969",
+      "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+      "output": "30 / 1,000,000 x $0.5 = $0.000015"
+    },
+    "cost_usd": "0.00013729",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call": 2,
+    "input_tokens": 11447,
+    "cached_tokens": 11321,
+    "cache_write_tokens": 0,
+    "output_tokens": 144,
+    "total_tokens": 11591,
+    "details": {
+      "reasoning_tokens": 70
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "11321 / 1,000,000 x $0.01 = $0.00011321",
+      "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+      "output": "144 / 1,000,000 x $0.5 = $0.0000720"
+    },
+    "cost_usd": "0.00019781",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call": 1,
+    "input_tokens": 11093,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 23,
+    "output_tokens": 28,
+    "total_tokens": 11121,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "23 / 1,000,000 x $0.125 = $0.000002875",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.000138915",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call": 2,
+    "input_tokens": 11221,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 128,
+    "output_tokens": 116,
+    "total_tokens": 11337,
+    "details": {
+      "reasoning_tokens": 37
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "128 / 1,000,000 x $0.125 = $0.000016000",
+      "output": "116 / 1,000,000 x $0.5 = $0.0000580"
+    },
+    "cost_usd": "0.000196270",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call": 1,
+    "input_tokens": 11093,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 23,
+    "output_tokens": 28,
+    "total_tokens": 11121,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "23 / 1,000,000 x $0.125 = $0.000002875",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.000138915",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call": 2,
+    "input_tokens": 11265,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 172,
+    "output_tokens": 102,
+    "total_tokens": 11367,
+    "details": {
+      "reasoning_tokens": 21
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "172 / 1,000,000 x $0.125 = $0.000021500",
+      "output": "102 / 1,000,000 x $0.5 = $0.0000510"
+    },
+    "cost_usd": "0.000194770",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call": 1,
+    "input_tokens": 11093,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 23,
+    "output_tokens": 28,
+    "total_tokens": 11121,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "23 / 1,000,000 x $0.125 = $0.000002875",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.000138915",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call": 2,
+    "input_tokens": 11240,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 147,
+    "output_tokens": 150,
+    "total_tokens": 11390,
+    "details": {
+      "reasoning_tokens": 63
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "147 / 1,000,000 x $0.125 = $0.000018375",
+      "output": "150 / 1,000,000 x $0.5 = $0.000075"
+    },
+    "cost_usd": "0.000215645",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call": 1,
+    "input_tokens": 11094,
+    "cached_tokens": 10968,
+    "cache_write_tokens": 0,
+    "output_tokens": 29,
+    "total_tokens": 11123,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10968 / 1,000,000 x $0.01 = $0.00010968",
+      "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+      "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+    },
+    "cost_usd": "0.00013678",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call": 2,
+    "input_tokens": 11246,
+    "cached_tokens": 11120,
+    "cache_write_tokens": 0,
+    "output_tokens": 71,
+    "total_tokens": 11317,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "11120 / 1,000,000 x $0.01 = $0.0001112",
+      "cache_write": "0 / 1,000,000 x $0.125 = $0.000",
+      "output": "71 / 1,000,000 x $0.5 = $0.0000355"
+    },
+    "cost_usd": "0.0001593",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call": 1,
+    "input_tokens": 11094,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 24,
+    "output_tokens": 29,
+    "total_tokens": 11123,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "24 / 1,000,000 x $0.125 = $0.000003000",
+      "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+    },
+    "cost_usd": "0.000139540",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call": 2,
+    "input_tokens": 11375,
+    "cached_tokens": 10968,
+    "cache_write_tokens": 281,
+    "output_tokens": 932,
+    "total_tokens": 12307,
+    "details": {
+      "reasoning_tokens": 851
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10968 / 1,000,000 x $0.01 = $0.00010968",
+      "cache_write": "281 / 1,000,000 x $0.125 = $0.000035125",
+      "output": "932 / 1,000,000 x $0.5 = $0.0004660"
+    },
+    "cost_usd": "0.000623405",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call": 1,
+    "input_tokens": 11094,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 24,
+    "output_tokens": 29,
+    "total_tokens": 11123,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "24 / 1,000,000 x $0.125 = $0.000003000",
+      "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+    },
+    "cost_usd": "0.000139540",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call": 2,
+    "input_tokens": 11265,
+    "cached_tokens": 10968,
+    "cache_write_tokens": 171,
+    "output_tokens": 127,
+    "total_tokens": 11392,
+    "details": {
+      "reasoning_tokens": 54
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10968 / 1,000,000 x $0.01 = $0.00010968",
+      "cache_write": "171 / 1,000,000 x $0.125 = $0.000021375",
+      "output": "127 / 1,000,000 x $0.5 = $0.0000635"
+    },
+    "cost_usd": "0.000207155",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call": 1,
+    "input_tokens": 11093,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 23,
+    "output_tokens": 28,
+    "total_tokens": 11121,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "23 / 1,000,000 x $0.125 = $0.000002875",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.000138915",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call": 2,
+    "input_tokens": 11399,
+    "cached_tokens": 10967,
+    "cache_write_tokens": 306,
+    "output_tokens": 115,
+    "total_tokens": 11514,
+    "details": {
+      "reasoning_tokens": 38
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10967 / 1,000,000 x $0.01 = $0.00010967",
+      "cache_write": "306 / 1,000,000 x $0.125 = $0.000038250",
+      "output": "115 / 1,000,000 x $0.5 = $0.0000575"
+    },
+    "cost_usd": "0.000218020",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call": 1,
+    "input_tokens": 11092,
+    "cached_tokens": 10944,
+    "cache_write_tokens": 22,
+    "output_tokens": 27,
+    "total_tokens": 11119,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10944 / 1,000,000 x $0.01 = $0.00010944",
+      "cache_write": "22 / 1,000,000 x $0.125 = $0.000002750",
+      "output": "27 / 1,000,000 x $0.5 = $0.0000135"
+    },
+    "cost_usd": "0.000138290",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call": 2,
+    "input_tokens": 11239,
+    "cached_tokens": 10966,
+    "cache_write_tokens": 147,
+    "output_tokens": 116,
+    "total_tokens": 11355,
+    "details": {
+      "reasoning_tokens": 44
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "10966 / 1,000,000 x $0.01 = $0.00010966",
+      "cache_write": "147 / 1,000,000 x $0.125 = $0.000018375",
+      "output": "116 / 1,000,000 x $0.5 = $0.0000580"
+    },
+    "cost_usd": "0.000198635",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p01_bluehen_quote.html",
+    "call": 1,
+    "input_tokens": 11122,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10996,
+    "output_tokens": 27,
+    "total_tokens": 11149,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10996 / 1,000,000 x $0.125 = $0.001374500",
+      "output": "27 / 1,000,000 x $0.5 = $0.0000135"
+    },
+    "cost_usd": "0.001400600",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p01_bluehen_quote.html",
+    "call": 2,
+    "input_tokens": 11448,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11322,
+    "output_tokens": 133,
+    "total_tokens": 11581,
+    "details": {
+      "reasoning_tokens": 62
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11322 / 1,000,000 x $0.125 = $0.001415250",
+      "output": "133 / 1,000,000 x $0.5 = $0.0000665"
+    },
+    "cost_usd": "0.001494350",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p02_elmcity_quote.html",
+    "call": 1,
+    "input_tokens": 11119,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10993,
+    "output_tokens": 28,
+    "total_tokens": 11147,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10993 / 1,000,000 x $0.125 = $0.001374125",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.001400725",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p02_elmcity_quote.html",
+    "call": 2,
+    "input_tokens": 11447,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11321,
+    "output_tokens": 196,
+    "total_tokens": 11643,
+    "details": {
+      "reasoning_tokens": 99
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11321 / 1,000,000 x $0.125 = $0.001415125",
+      "output": "196 / 1,000,000 x $0.5 = $0.0000980"
+    },
+    "cost_usd": "0.001525725",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call": 1,
+    "input_tokens": 11124,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10998,
+    "output_tokens": 28,
+    "total_tokens": 11152,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10998 / 1,000,000 x $0.125 = $0.001374750",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.001401350",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call": 2,
+    "input_tokens": 11445,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11319,
+    "output_tokens": 223,
+    "total_tokens": 11668,
+    "details": {
+      "reasoning_tokens": 138
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11319 / 1,000,000 x $0.125 = $0.001414875",
+      "output": "223 / 1,000,000 x $0.5 = $0.0001115"
+    },
+    "cost_usd": "0.001538975",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call": 1,
+    "input_tokens": 11123,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10997,
+    "output_tokens": 30,
+    "total_tokens": 11153,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10997 / 1,000,000 x $0.125 = $0.001374625",
+      "output": "30 / 1,000,000 x $0.5 = $0.000015"
+    },
+    "cost_usd": "0.001402225",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call": 2,
+    "input_tokens": 11475,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11349,
+    "output_tokens": 116,
+    "total_tokens": 11591,
+    "details": {
+      "reasoning_tokens": 42
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11349 / 1,000,000 x $0.125 = $0.001418625",
+      "output": "116 / 1,000,000 x $0.5 = $0.0000580"
+    },
+    "cost_usd": "0.001489225",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call": 1,
+    "input_tokens": 11123,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10997,
+    "output_tokens": 28,
+    "total_tokens": 11151,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10997 / 1,000,000 x $0.125 = $0.001374625",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.001401225",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call": 2,
+    "input_tokens": 11250,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11124,
+    "output_tokens": 121,
+    "total_tokens": 11371,
+    "details": {
+      "reasoning_tokens": 42
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11124 / 1,000,000 x $0.125 = $0.001390500",
+      "output": "121 / 1,000,000 x $0.5 = $0.0000605"
+    },
+    "cost_usd": "0.001463600",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call": 1,
+    "input_tokens": 11122,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10996,
+    "output_tokens": 28,
+    "total_tokens": 11150,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10996 / 1,000,000 x $0.125 = $0.001374500",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.001401100",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call": 2,
+    "input_tokens": 11291,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11165,
+    "output_tokens": 128,
+    "total_tokens": 11419,
+    "details": {
+      "reasoning_tokens": 45
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11165 / 1,000,000 x $0.125 = $0.001395625",
+      "output": "128 / 1,000,000 x $0.5 = $0.0000640"
+    },
+    "cost_usd": "0.001472225",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call": 1,
+    "input_tokens": 11122,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10996,
+    "output_tokens": 28,
+    "total_tokens": 11150,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10996 / 1,000,000 x $0.125 = $0.001374500",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.001401100",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call": 2,
+    "input_tokens": 11267,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11141,
+    "output_tokens": 151,
+    "total_tokens": 11418,
+    "details": {
+      "reasoning_tokens": 53
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11141 / 1,000,000 x $0.125 = $0.001392625",
+      "output": "151 / 1,000,000 x $0.5 = $0.0000755"
+    },
+    "cost_usd": "0.001480725",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p08_chapelst_email.eml",
+    "call": 1,
+    "input_tokens": 11120,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10994,
+    "output_tokens": 29,
+    "total_tokens": 11149,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10994 / 1,000,000 x $0.125 = $0.001374250",
+      "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+    },
+    "cost_usd": "0.001401350",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p08_chapelst_email.eml",
+    "call": 2,
+    "input_tokens": 11273,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11147,
+    "output_tokens": 124,
+    "total_tokens": 11397,
+    "details": {
+      "reasoning_tokens": 27
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11147 / 1,000,000 x $0.125 = $0.001393375",
+      "output": "124 / 1,000,000 x $0.5 = $0.0000620"
+    },
+    "cost_usd": "0.001467975",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p09_westville_email.eml",
+    "call": 1,
+    "input_tokens": 11121,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10995,
+    "output_tokens": 29,
+    "total_tokens": 11150,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10995 / 1,000,000 x $0.125 = $0.001374375",
+      "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+    },
+    "cost_usd": "0.001401475",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p09_westville_email.eml",
+    "call": 2,
+    "input_tokens": 11403,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11277,
+    "output_tokens": 333,
+    "total_tokens": 11736,
+    "details": {
+      "reasoning_tokens": 253
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11277 / 1,000,000 x $0.125 = $0.001409625",
+      "output": "333 / 1,000,000 x $0.5 = $0.0001665"
+    },
+    "cost_usd": "0.001588725",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p10_eastrock_email.eml",
+    "call": 1,
+    "input_tokens": 11123,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10997,
+    "output_tokens": 29,
+    "total_tokens": 11152,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10997 / 1,000,000 x $0.125 = $0.001374625",
+      "output": "29 / 1,000,000 x $0.5 = $0.0000145"
+    },
+    "cost_usd": "0.001401725",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p10_eastrock_email.eml",
+    "call": 2,
+    "input_tokens": 11294,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11168,
+    "output_tokens": 159,
+    "total_tokens": 11453,
+    "details": {
+      "reasoning_tokens": 74
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11168 / 1,000,000 x $0.125 = $0.001396000",
+      "output": "159 / 1,000,000 x $0.5 = $0.0000795"
+    },
+    "cost_usd": "0.001488100",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p11_yorkst_quote.html",
+    "call": 1,
+    "input_tokens": 11120,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10994,
+    "output_tokens": 28,
+    "total_tokens": 11148,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10994 / 1,000,000 x $0.125 = $0.001374250",
+      "output": "28 / 1,000,000 x $0.5 = $0.0000140"
+    },
+    "cost_usd": "0.001400850",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p11_yorkst_quote.html",
+    "call": 2,
+    "input_tokens": 11423,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11297,
+    "output_tokens": 126,
+    "total_tokens": 11549,
+    "details": {
+      "reasoning_tokens": 50
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11297 / 1,000,000 x $0.125 = $0.001412125",
+      "output": "126 / 1,000,000 x $0.5 = $0.0000630"
+    },
+    "cost_usd": "0.001487725",
+    "portkey_cache_status": "REFRESH",
+    "decision": "do_not_recommend",
+    "decision_matches_key": true
+  },
+  {
+    "setup": "without_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call": 1,
+    "input_tokens": 11116,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10990,
+    "output_tokens": 27,
+    "total_tokens": 11143,
+    "details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "10990 / 1,000,000 x $0.125 = $0.00137375",
+      "output": "27 / 1,000,000 x $0.5 = $0.0000135"
+    },
+    "cost_usd": "0.00139985",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  },
+  {
+    "setup": "without_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call": 2,
+    "input_tokens": 11269,
+    "cached_tokens": 0,
+    "cache_write_tokens": 11143,
+    "output_tokens": 141,
+    "total_tokens": 11410,
+    "details": {
+      "reasoning_tokens": 69
+    },
+    "uncached_input_tokens": 126,
+    "cost_math": {
+      "uncached_input": "126 / 1,000,000 x $0.1 = $0.0000126",
+      "cached_input": "0 / 1,000,000 x $0.01 = $0.00",
+      "cache_write": "11143 / 1,000,000 x $0.125 = $0.001392875",
+      "output": "141 / 1,000,000 x $0.5 = $0.0000705"
+    },
+    "cost_usd": "0.001475975",
+    "portkey_cache_status": "REFRESH",
+    "decision": "recommend",
+    "decision_matches_key": false
+  }
+]

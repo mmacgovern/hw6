@@ -1,0 +1,17 @@
+# AI agent framework (structured outputs + tools)
+pydantic-ai
+pydantic
+# OpenAI-compatible client, used to talk to Portkey
+openai
+# Load PORTKEY_API_KEY from .env at run time
+python-dotenv
+# Read HTML vendor documents
+beautifulsoup4
+lxml
+# Read PDF vendor documents
+pypdf
+pdfplumber
+# Count tokens (handbook size, caching math)
+tiktoken
+# Testing
+pytest
